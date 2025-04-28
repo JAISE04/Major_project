@@ -1,3 +1,30 @@
-results/checkpoint-919/model.safetensors
-results/checkpoint-919/optimizer.pt
-fake_and_real_news_dataset.csv
+# Ignore Python cache and models
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.safetensors
+*.bin
+*.ckpt
+
+# Ignore node_modules (frontend dependencies)
+frontend/node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore saved model directories (fix capital letters)
+Backend/Models/bert_fakenews_model/
+results/
+
+# Ignore virtual environments (optional if created)
+venv/
+env/
+
+# Ignore logs
+*.log
+
+# Mac OS
+.DS_Store
