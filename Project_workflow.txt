@@ -1,0 +1,21 @@
+fake-news-detection/
+├── backend/
+│   ├── api/
+│   │   └── app.py
+│   ├── models/
+│   │   ├── fake_news_model.pkl
+│   │   └── vectorizer.pkl
+│   ├── data/
+│   │   └── fake_and_real_news_dataset.csv
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── index.css
+│   ├── package.json
+│   └── README.md
+│
+└── README.md
