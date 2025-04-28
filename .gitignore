@@ -1,2 +1,3 @@
+results/checkpoint-919/model.safetensors
+results/checkpoint-919/optimizer.pt
 fake_and_real_news_dataset.csv
-results/
